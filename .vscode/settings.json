@@ -1,0 +1,52 @@
+{
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.hover.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "tabnine.experimentalAutoImports": true,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.colorTheme": "Jetbrains Dark Theme",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "git.enableSmartCommit": true,
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["/myfile"],
+      "url": "schemaURL"
+    }
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

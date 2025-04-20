@@ -1,0 +1,46 @@
+#login {
+  .login {
+    display: flex;
+    justify-content: space-between;
+    &-left {
+      border-radius: 0px 25% 25% 0px;
+      width: 45%;
+      height: 100vh;
+      background: rgb(112, 81, 239);
+      h1 {
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    &-right {
+    
+      .block {
+        margin-left: 5%;
+        margin-top: 16%;
+        width: 480px;
+        height: 544px;
+        .username{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .user{
+            
+          }
+        }
+        .password{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .pass{
+            
+          }
+        }
+      }
+    }
+  }
+}
