@@ -2,13 +2,15 @@ import React from 'react'
 import "./Login.scss"
 import { FaRegUser } from "react-icons/fa"; 
 import { TbLockPassword } from "react-icons/tb";
-import { useNavigate} from 'react-router-dom'
+import { Link } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom'
 function Login() {
-  const nav = useNavigate()
+  // const nav = useNavigate()
+  // const handleRegisterClick = () => {
+  //   nav("/signup");
+  // };
 
-function getSignUp(){
-  nav("./sign-up")
-}
+
 
   return (
     <div id='login'>
@@ -30,11 +32,10 @@ function getSignUp(){
           <div className="btn">
             Вход
           </div>
-          <div className="signup" onClick={() => {
-            getSignUp()
-          }}> 
+          <Link to='/signup'> <button className="signup"> 
           Зарегистрироваться
-          </div>
+          </button>
+          </Link>
           </div>
         </div>
       </div>
@@ -42,4 +43,4 @@ function getSignUp(){
   )
 }
 
-export default Login
+export default Login;
