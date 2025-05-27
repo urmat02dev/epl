@@ -47,4 +47,4 @@ function getOdometr(){
   )
 }
 
-export default Login
+export default Login;

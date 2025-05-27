@@ -1,7 +1,7 @@
 #login {
   .login {
     display: flex;
-    width: 100%;
+    justify-content: space-between;
     &-left {
       border-radius: 0px 25% 25% 0px;
       width: 45%;
