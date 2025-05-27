@@ -2,12 +2,17 @@ import React from 'react'
 import "./Login.scss"
 import { FaRegUser } from "react-icons/fa"; 
 import { TbLockPassword } from "react-icons/tb";
-import { nav} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 function Login() {
+  const nav = useNavigate()
+
 function getSignUp(){
   nav("./sign-up")
 }
 
+function getOdometr(){
+  nav("./metr")
+}
   return (
     <div id='login'>
       <div className="login">
@@ -25,9 +30,11 @@ function getSignUp(){
           <input type="text" placeholder='Пароль' />
                 <TbLockPassword className='pass'/>
           </div>
-          <div className="btn">
+          <button className="btn" onClick={() => {
+            getOdometr()
+          }}>
             Вход
-          </div>
+          </button>
           <div className="signup" onClick={() => {
             getSignUp()
           }}> 

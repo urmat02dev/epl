@@ -1,7 +1,7 @@
 #login {
   .login {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
     &-left {
       border-radius: 0px 25% 25% 0px;
       width: 45%;
@@ -18,27 +18,91 @@
       }
     }
     &-right {
-    
       .block {
-        margin-left: 5%;
-        margin-top: 16%;
+        h1 {
+          color: rgb(24, 24, 33);
+          font-family: Quicksand;
+          font-size: 48px;
+          line-height: 60px;
+          letter-spacing: 0%;
+        }
+        padding-left: 30%;
         width: 480px;
         height: 544px;
-        .username{
+        .username {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          .user{
-            
+          position: relative;
+          input {
+            font-family: Quicksand;
+            font-weight: 600;
+            padding-left: 3%;
+            border-radius: 10px;
+            background: rgb(220, 224, 227);
+            width: 100%;
+            height: 60px;
+            font-size: 23px;
+          }
+
+          .user {
+            position: absolute;
+            right: 5%;
+            top: 30%;
+            font-size: 25px;
           }
         }
-        .password{
+        .password {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          .pass{
-            
+          margin-top: 5%;
+          position: relative;
+
+          input {
+            overflow: auto; /* Показывает скролл при переполнении */
+            word-wrap: break-word; /* Переносит длинные слова */
+            font-family: Quicksand;
+            font-weight: 600;
+            padding-left: 3%;
+            border-radius: 10px;
+            background: rgb(220, 224, 227);
+            width: 100%;
+            height: 60px;
+            font-size: 23px;
           }
+          .pass {
+            position: absolute;
+            right: 5%;
+            top: 30%;
+            font-size: 25px;
+          }
+        }
+        .btn {
+          margin-top: 5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 480px;
+          height: 60px;
+          border-radius: 10px;
+          background: rgb(112, 81, 239);
+          color: white;
+          font-size: 20px;
+          
+        }
+        .signup {
+          margin-top: 5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 480px;
+          height: 60px;
+          border-radius: 10px;
+          background: white;
+          color: rgb(89, 89, 89);
+          font-size: 20px;
+          cursor: pointer;
         }
       }
     }
